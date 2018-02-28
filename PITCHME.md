@@ -5,8 +5,6 @@ Simpler classification method
 
 ### MNIST Softmax in TensorFlow
 
----
-
 ![Softmax](img/s1.png)
 
 ![Press Down Key](img/down-arrow.png)
