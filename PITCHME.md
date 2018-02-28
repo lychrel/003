@@ -52,3 +52,11 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 @[46](it gets complicated lol)
 
 ---
+
+## Running It
+
+---
+
+## Problem
+
+- rotated characters can be hard to recognize
