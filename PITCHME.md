@@ -39,6 +39,8 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ## Full Code
 
+![Press Down Key](img/down-arrow.png)
+
 +++?code=mnist_softmax.py&lang=python
 
 @[16-20](tutorial source)
