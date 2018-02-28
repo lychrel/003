@@ -26,7 +26,7 @@ using softmax regression
 
 +++
 
-### in code
+### defining the model 
 
 ```python
 x = tf.placeholder(tf.float32, [None, 784])
