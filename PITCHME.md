@@ -11,19 +11,21 @@ Simpler classification method
 
 +++
 
+### equation form
 ![Softmax (equation form)](img/s1_eqns.png)
 
 ![Press Down Key](img/down-arrow.png)
 
 +++
 
+### matrix form
 ![Softmax (matrix form)](img/s1_matrices.png)
 
 ![Press Down Key](img/down-arrow.png)
 
 +++
 
-### Softmax (in code)
+### in code
 
 ```python
 x = tf.placeholder(tf.float32, [None, 784])
