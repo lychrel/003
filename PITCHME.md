@@ -40,8 +40,14 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 +++?code=mnist_softmax.py&lang=python
 
+@[16-20](tutorial source)
+@[21-27](various imports)
+@[28-29](load the MNIST data)
 @[30](load TensorFlow API)
-@[40-42](variable, weights, and biases)
+@[32](FLAGS)
+@[35-37](import the MNIST data)
+@[40-42](create variable, weights, and biases)
 @[43](matrix multiplication)
+@[46](it gets complicated lol)
 
 ---
