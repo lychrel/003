@@ -1,9 +1,10 @@
-# MNIST with Softmax Regressions
-Simpler classification method
+# MNIST in TensorFlow
+using softmax regression
+& CNNs
 
 ---
 
-### MNIST Softmax in TensorFlow
+### Softmax Implementation
 
 ![Softmax](img/s1.png)
 
@@ -46,7 +47,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 @[30](load TensorFlow API)
 @[32](FLAGS)
 @[35-37](import the MNIST data)
-@[40-42](create variable, weights, and biases)
+@[40-42](create variables, weights, and biases)
 @[43](matrix multiplication)
 @[46](it gets complicated lol)
 
