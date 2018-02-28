@@ -9,6 +9,8 @@ Simpler classification method
 
 +++?code=mnist_softmax.py&lang=python
 
-@[11-14](test)
+@[30](load TensorFlow API)
+@[40-42](variable, weights, and biases)
+@[43](matrix multiplication)
 
 ---
