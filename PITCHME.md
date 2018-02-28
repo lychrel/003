@@ -4,6 +4,12 @@ using softmax regression
 
 ---
 
+### Image Input
+
+put an image being falttened into input vector here
+
+---
+
 ### Softmax Implementation
 
 ![Softmax](img/s1.png)
