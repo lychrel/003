@@ -9,17 +9,23 @@ Simpler classification method
 
 ![Press Down Key](img/down-arrow.png)
 
++++
+
 ![Softmax (equation form)](img/s1_eqns.png)
 
 ![Press Down Key](img/down-arrow.png)
+
++++
 
 ![Softmax (matrix form)](img/s1_matrices.png)
 
 ![Press Down Key](img/down-arrow.png)
 
++++
+
 ### Softmax (in code)
 
-```
+```python
 x = tf.placeholder(tf.float32, [None, 784])
 W = tf.Variable(tf.zeros([784, 10]))
 b = tf.Variable(tf.zeros([10]))
