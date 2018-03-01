@@ -89,9 +89,18 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 ## CNN Unique Layers
 - convolutional: slide filters across image --> activation maps of image responses to filters ([example](http://cs231n.github.io/convolutional-networks/))
 	- conv layers learn a set of filters appropriate to the problem
-- pooling: reduce spatial size of representation to reduce computation and number of parameters (also controls overfitting)
+- ReLu (Rectified Linear units): often follow conv layers. Adds nonlinearity to the net (e.g. changing all negative activations to 0)
+- pooling: "downsample the data": reduce spatial size of representation to cut down computation and number of parameters (also controls overfitting)
+- dense (fully-connected): often just for classification
 
-- [filter example](http://cs231n.github.io/convolutional-networks/)
+---
+
+## Typical CNN Structure
+
+1. convolutional modules (conv + pooling) for _feature extraction_
+2. 1+ dense layer(s) for classification at end
+
+---
 
 ---
 
@@ -100,6 +109,11 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 ![Press Down Key](img/down-arrow.png)
 
 +++?code=mnist_cnn.py&lang=python
+
+@[38-43](example conv layer with appended ReLu activation)
+@[49](example pool layer (note simplicity of implementation))
+@[87](output layer shape(softmax classification))
+@[94](softmax classification)
 
 ---
 
