@@ -92,5 +92,17 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ---
 
+## Cross-Entropy
+
+- measures how inefficient predictions are at describing the truth
+- compares predicted probability distribution to true, one-hot encoded probability vector
+
++++
+![Softmax (matrix form)](img/crossentropy.png)
+
+for predicted distribution _y_, one-hot vector _y'_
+
+---
+
 ## MNIST Dimensionality
 
