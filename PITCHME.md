@@ -78,7 +78,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ---
 
-## CNNs
+## Convolutional Neural Networks (CNNs)
 - assume image inputs
 - 3D layers: width, height, depth
 - neurons in a layer only connected to small _regions_ of previous layer, instead of fully-connected
@@ -90,6 +90,11 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 - convolutional: slide filters across image --> activation maps of image responses to filters ([example](http://cs231n.github.io/convolutional-networks/))
 	- conv layers learn a set of filters appropriate to the problem
 - ReLu (Rectified Linear units): often follow conv layers. Adds nonlinearity to the net (e.g. changing all negative activations to 0)
+
+![Press Down Key](img/down-arrow.png)
+
++++
+
 - pooling: "downsample the data": reduce spatial size of representation to cut down computation and number of parameters (also controls overfitting)
 - dense (fully-connected): often just for classification
 
@@ -99,8 +104,6 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 1. convolutional modules (conv + pooling) for _feature extraction_
 2. 1+ dense layer(s) for classification at end
-
----
 
 ---
 
