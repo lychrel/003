@@ -4,9 +4,9 @@ using softmax regression
 
 ---
 
-### Image Input
+### Image Input for SoftMax
 
-put an image being falttened into input vector here
+![flatten](img/flatten.png)
 
 ---
 
@@ -82,9 +82,11 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ### Example MNIST  
 ![5](img/5mnist.png)
+![Press Down Key](img/down-arrow.png)
 +++
 ### Translated
 ![5](img/5_trans.png)
+![Press Down Key](img/down-arrow.png)
 +++
 ### Rotated
 ![5](img/5rot.png)
