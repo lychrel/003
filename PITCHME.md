@@ -98,7 +98,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 - compares predicted probability distribution to true, one-hot encoded probability vector
 
 +++
-![Softmax (matrix form)](img/crossentropy.png)
+![Softmax (matrix form)](img/crossent.png)
 
 for predicted distribution _y_, one-hot vector _y'_
 
