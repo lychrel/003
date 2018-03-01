@@ -57,11 +57,18 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 @[35-37](import the (one-hot encoded) MNIST data)
 @[40-42](create variables, weights, and biases)
 @[43](matrix multiplication)
-@[46](it gets complicated lol)
+@[46](output layer (predicted probabilities))
+@[57-58](define the loss function (measurement of incorrectness))
+@[59](define how we want to reduce loss (incorrectness) over time)
+@[61-62](start a session in TensorFlow)
+@[64-66](train network using above parameters on 10 sets of 100 images)
+@[69-71](check accuracy of predictions)
+@[74-79](run session)
 
 ---
 
 ## Running It
+- let's go to the terminal!
 
 ---
 
@@ -106,3 +113,17 @@ for predicted distribution _y_, one-hot vector _y'_
 
 ## MNIST Dimensionality
 
+---
+
+## CNN Layers
+
+- convolutional
+- ReLu activation
+- pooling
+- dropout
+
+## CNN Hyperparameters
+
+- stride and padding
+- filter sizes
+- number of (conv) layers
