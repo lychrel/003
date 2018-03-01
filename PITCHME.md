@@ -43,7 +43,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ---
 
-## Full Code
+## MNIST with SoftMax
 
 ![Press Down Key](img/down-arrow.png)
 
@@ -51,10 +51,10 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 @[16-20](tutorial source)
 @[21-27](various imports)
-@[28-29](load the MNIST data)
+@[28-29](load MNIST data)
 @[30](load TensorFlow API)
 @[32](FLAGS)
-@[35-37](import the MNIST data)
+@[35-37](import the (one-hot encoded) MNIST data)
 @[40-42](create variables, weights, and biases)
 @[43](matrix multiplication)
 @[46](it gets complicated lol)
@@ -68,3 +68,15 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 ## Problem
 
 - rotated characters can be hard to recognize
+
+---
+
+# Additional Info
+
+---
+
+## One-Hot Encoding
+
+- one-hot vectors are 0 in all dimensions but one (which is 1).
+- avoids assuming order between categories, as integer encoding (1, 2, 3) does.
+- e.x. [1,0,0], [0,1,0], [0,0,1] vs 0, 1, 2
