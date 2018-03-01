@@ -80,3 +80,17 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 - one-hot vectors are 0 in all dimensions but one (which is 1).
 - avoids assuming order between categories, as integer encoding (1, 2, 3) does.
 - e.x. [1,0,0], [0,1,0], [0,0,1] vs 0, 1, 2
+
+---
+
+## SoftMax (normalized exp(x))
+
+- gives a list of values between 0 and 1 that sum to 1
+	- a natural choice for probability
+- exponentiates inputs then normalizes for pdf
+- [more detailed exploration](http://neuralnetworksanddeeplearning.com/chap3.html#softmax)
+
+---
+
+## MNIST Dimensionality
+
