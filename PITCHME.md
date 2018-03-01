@@ -59,7 +59,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 @[43](matrix multiplication)
 @[46](output layer (predicted probabilities))
 @[57-58](define the loss function (measurement of incorrectness))
-@[59](define how we want to reduce loss (incorrectness) over time)
+@[59](define how we want to reduce loss (incorrectness) over time (stochastic gradient descent))
 @[61-62](start a session in TensorFlow)
 @[64-66](train network using above parameters on 10 sets of 100 images)
 @[69-71](check accuracy of predictions)
@@ -119,7 +119,22 @@ for predicted distribution _y_, one-hot vector _y'_
 
 ---
 
+## Backpropagation
+
+- [detailed introduction](http://colah.github.io/posts/2015-08-Backprop/)
+
+---
+
+## Gradient Descent
+
+- shifting variables small amounts in direction of reduced loss
+- [mathy intro](https://en.wikipedia.org/wiki/Gradient_descent)
+
+---
+
 ## MNIST Dimensionality
+
+- [detailed exploration](http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
 
 ---
 
@@ -137,3 +152,10 @@ for predicted distribution _y_, one-hot vector _y'_
 - stride and padding
 - filter sizes
 - number of (conv) layers
+
+---
+
+## CNN additional detail
+
+- [intro, pt 1](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/)
+- [intro, pt 2](https://adeshpande3.github.io/adeshpande3.github.io/A-Beginner's-Guide-To-Understanding-Convolutional-Neural-Networks-Part-2/)
