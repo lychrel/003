@@ -80,7 +80,7 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 +++
 
-### translations & rotations
+### Example MNIST  
 ![5](img/5mnist.png)
 +++
 ### Translated
