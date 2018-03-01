@@ -6,7 +6,7 @@ using softmax regression
 
 ### Image Input for SoftMax
 
-![flatten](img/flatten.png)
+![flatten](img/fimg.png)
 
 ---
 
