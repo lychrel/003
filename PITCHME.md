@@ -76,6 +76,9 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 - rotated characters can be hard to recognize
 
+![Press Down Key](img/down-arrow.png)
+
+
 ---
 
 ## Convolutional Neural Networks (CNNs)
