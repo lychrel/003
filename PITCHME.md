@@ -81,8 +81,11 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 +++
 
 ### translations & rotations
+- original
 ![5](img/5mnist.png)
+- translated
 ![5](img/5_trans.png)
+- rotated
 ![5](img/5rot.png)
 
 ---
