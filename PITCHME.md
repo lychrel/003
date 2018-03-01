@@ -78,6 +78,14 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ---
 
+## MNIST with CNN
+
+![Press Down Key](img/down-arrow.png)
+
++++?code=mnist_cnn.py&lang=python
+
+---
+
 # Additional Info
 
 ---
@@ -121,6 +129,8 @@ for predicted distribution _y_, one-hot vector _y'_
 - ReLu activation
 - pooling
 - dropout
+
+---
 
 ## CNN Hyperparameters
 
