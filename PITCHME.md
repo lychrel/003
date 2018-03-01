@@ -78,6 +78,23 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 
 ---
 
+## CNNs
+- assume image inputs
+- 3D layers: width, height, depth
+- neurons in a layer only connected to small _regions_ of previous layer, instead of fully-connected
+- unique layer types
+
+---
+
+## CNN Unique Layers
+- convolutional: slide filters across image --> activation maps of image responses to filters ([example](http://cs231n.github.io/convolutional-networks/))
+	- conv layers learn a set of filters appropriate to the problem
+- pooling: reduce spatial size of representation to reduce computation and number of parameters (also controls overfitting)
+
+- [filter example](http://cs231n.github.io/convolutional-networks/)
+
+---
+
 ## MNIST with CNN
 
 ![Press Down Key](img/down-arrow.png)
@@ -147,9 +164,13 @@ for predicted distribution _y_, one-hot vector _y'_
 
 ---
 
+## Pooling Visualization
+
+![pooling](img/pooling.png)
+
 ## CNN Hyperparameters
 
-- stride and padding
+- depth, stride, and padding (determine conv layer output volume)
 - filter sizes
 - number of (conv) layers
 
